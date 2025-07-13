@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f7f9;
+}
+
+/* Layout */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+}
+
+/* Sidebar */
+.profile-sidebar {
+  width: 300px;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-right: 1px solid #e0e0e0;
+  text-align: center;
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #a3d9a5;
+}
+
+.profile-name {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #2e7d32;
+}
+
+.profile-email,
+.profile-address {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+.edit-button {
+  margin-top: 1rem;
+  padding: 8px 16px;
+  background-color: #2e7d32;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.edit-button:hover {
+  background-color: #256428;
+}
+
+/* Main Section */
+.dashboard-main {
+  flex: 1;
+  padding: 2rem 3rem;
+  overflow-y: auto;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #1b5e20;
+}
+
+.dashboard-header p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* Stats Section */
+.stats-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.stat-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.stat-icon {
+  font-size: 2rem;
+}
+
+.stat-value {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Sections */
+.activity-achievement-section {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.activity-section,
+.achievement-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.activity-list {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.activity-item {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
+.achievement-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.achievement-card {
+  background-color: #e8f5e9;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #1b5e20;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}

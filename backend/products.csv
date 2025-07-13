@@ -1,0 +1,16 @@
+product_name,price,category,image_link,material,packaging_type,is_packaging_recyclable,is_biodegradable,is_reusable,recycled_content_percent,manufacturing_country
+Organic Cotton Vishwas,24.99,clothing,https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg,Organic Cotton,Recyclable Cardboard,True,True,True,0,India
+Bamboo Kitchen Utensil Set,19.99,kitchen,https://images.pexels.com/photos/1599791/pexels-photo-1599791.jpeg,Bamboo,Compostable Packaging,True,True,True,0,Vietnam
+Organic Quinoa,8.99,grocery,https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg,Organic Quinoa,Recyclable Paper,True,True,False,80,Peru
+Recycled Plastic Water Bottle,12.99,kitchen,https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg,Recycled Plastic,Minimal Cardboard,True,False,True,100,USA
+Solar-Powered Garden Light,29.99,home,https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg,Recycled Aluminum,Recyclable Cardboard,True,False,True,75,China
+Biodegradable Cleaning Spray,6.99,home,https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg,Plant-based Formula,Recyclable Plastic,True,True,False,50,USA
+Sustainable Yoga Mat,45.99,home,https://images.pexels.com/photos/317155/pexels-photo-317155.jpeg,Natural Rubber,Recyclable Cardboard,True,True,True,0,India
+Organic Fair Trade Coffee,14.99,grocery,https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg,Organic Coffee Beans,Compostable Bag,False,True,False,0,Colombia
+Eco-Friendly Dish Soap,7.49,home,https://images.pexels.com/photos/4239013/pexels-photo-4239013.jpeg,Plant-based Surfactants,Recyclable Plastic,True,True,False,75,USA
+Recycled Paper Notebooks,9.99,electronics,https://images.pexels.com/photos/159751/book-address-book-learning-learn-159751.jpeg,100% Recycled Paper,Minimal Cardboard,True,True,True,100,Canada
+Hemp Backpack,89.99,clothing,https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg,Hemp Fiber,Recyclable Cardboard,True,True,True,0,Nepal
+Compostable Phone Case,19.99,electronics,https://images.pexels.com/photos/1482476/pexels-photo-1482476.jpeg,Plant-based Plastic,Compostable Packaging,True,True,True,0,Germany
+Organic Cotton Bedsheets,79.99,home,https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg,Organic Cotton,Recyclable Cardboard,True,True,True,0,Turkey
+Bamboo Toothbrush Set,12.99,home,https://images.pexels.com/photos/3737581/pexels-photo-3737581.jpeg,Bamboo,Compostable Packaging,True,True,True,0,China
+Vishwas,14.99,home,https://www.shutterstock.com/image-vector/vishwas-name-calligraphy-this-common-260nw-2248301127.jpg,bamboo,Recyclable,True,True,True,0,India

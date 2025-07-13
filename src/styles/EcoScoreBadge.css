@@ -1,0 +1,84 @@
+.eco-score-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: white;
+  border-radius: 8px;
+  padding: 6px 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 50px;
+  z-index: 10;
+}
+
+.score-text {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 2px;
+}
+
+.eco-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #666;
+}
+
+/* Score-specific colors */
+.score-a-plus .score-text {
+  color: #00a651;
+}
+
+.score-a .score-text {
+  color: #4caf50;
+}
+
+.score-b-plus .score-text {
+  color: #8bc34a;
+}
+
+.score-b .score-text {
+  color: #cddc39;
+}
+
+.score-c-plus .score-text {
+  color: #ffeb3b;
+}
+
+.score-c .score-text {
+  color: #ff9800;
+}
+
+.score-d .score-text {
+  color: #f44336;
+}
+
+/* Hover effects */
+.eco-score-badge {
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover .eco-score-badge {
+  transform: scale(1.05);
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .eco-score-badge {
+    top: 8px;
+    right: 8px;
+    padding: 4px 8px;
+    min-width: 45px;
+  }
+  
+  .score-text {
+    font-size: 14px;
+  }
+  
+  .eco-label {
+    font-size: 9px;
+  }
+}

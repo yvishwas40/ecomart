@@ -1,0 +1,42 @@
+# Node.js (React frontend)
+node_modules/
+build/
+dist/
+.cache/
+.eslintcache
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*.local
+
+# Python (FastAPI backend)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+instance/
+.env
+*.egg-info/
+.venv/
+venv/
+ENV/
+env/
+
+# IDE / Editor configs
+.vscode/
+.idea/
+
+# Test / coverage
+coverage/
+htmlcov/
+*.lcov
+
+# System files
+.DS_Store
+Thumbs.db
