@@ -41,7 +41,7 @@ A fully functional e-commerce web application that replicates Walmart's design w
 
 1. **Clone and start the application:**
 ```bash
-git clone <repository-url>
+git clone https://github.com/yvishwas40/ecomart.git
 cd ecomart
 docker-compose up --build
 ```
